@@ -31,7 +31,7 @@
 * Regenerative braking can be enabled/disabled, with efficiency adjustable via a `Slider`.
 * Waveform visibility (voltage, current, speed, temperature) is toggled via `CheckBoxes`.
 * Time step is capped at 0.1s to prevent large jumps.
-* Calculates total force (force = mass * acceleration - drag - rolling resistance), updates speed (total force / mass) * time step, caps speed between 0 and 180 km/h.
+* Calculates total force (force = mass * acceleration - drag - rolling resistance) & updates speed.
 * Computes RPM based on speed and gear ratio.
 * Calculates torque (torque = power * power factor / (RPM * efficiency).
 * Motor efficiency decreases with high RPM.
