@@ -12,7 +12,6 @@
 * Regenerative braking recovers energy when decelerating.
 * Battery temperature changes based on heat input (from power use) and cooling, using a thermal mass of 1000 J/°C.
 * Temperature is capped between 10°C and 70°C.
-* Efficiency: `energyConsumed * 1000 / distance` (Wh/km).
 * Stores 200 points for each parameter (voltage, current, speed, temperature).
 * Voltage and current include sinusoidal noise for realism.
 * Incorporates drag, rolling resistance, motor efficiency, regenerative braking, and thermal effects.
@@ -23,6 +22,8 @@
 | ![](https://github.com/KMORaza/EV_Powertrain_Simulation_App--enhanced/blob/main/src/screenshots/005.png) | ![](https://github.com/KMORaza/EV_Powertrain_Simulation_App--enhanced/blob/main/src/screenshots/006.png) | ![](https://github.com/KMORaza/EV_Powertrain_Simulation_App--enhanced/blob/main/src/screenshots/007.png) | ![](https://github.com/KMORaza/EV_Powertrain_Simulation_App--enhanced/blob/main/src/screenshots/008.png) |
 | ![](https://github.com/KMORaza/EV_Powertrain_Simulation_App--enhanced/blob/main/src/screenshots/009.png) | ![](https://github.com/KMORaza/EV_Powertrain_Simulation_App--enhanced/blob/main/src/screenshots/010.png) | ![](https://github.com/KMORaza/EV_Powertrain_Simulation_App--enhanced/blob/main/src/screenshots/011.png) | ![](https://github.com/KMORaza/EV_Powertrain_Simulation_App--enhanced/blob/main/src/screenshots/012.png) |
 | ![](https://github.com/KMORaza/EV_Powertrain_Simulation_App--enhanced/blob/main/src/screenshots/013.png) | ![](https://github.com/KMORaza/EV_Powertrain_Simulation_App--enhanced/blob/main/src/screenshots/014.png) | ![](https://github.com/KMORaza/EV_Powertrain_Simulation_App--enhanced/blob/main/src/screenshots/015.png) | ![](https://github.com/KMORaza/EV_Powertrain_Simulation_App--enhanced/blob/main/src/screenshots/016.png) |
+
+---
 
 ### Second enhancement
 * Users can input values for battery voltage, capacity, motor power, vehicle mass, etc., within defined ranges (e.g., voltage: 100–1000V).
@@ -43,3 +44,9 @@
 * Includes thermal effects and efficiency variations based on operating conditions.
 
 ![](https://github.com/KMORaza/EV_Powertrain_Simulation_App--enhanced/blob/main/src/screenshot.png)
+
+---
+
+_Diese Desktop-App simuliert den eines Elektrofahrzeug-Antriebsstrangs. Ich hatte zuvor eine ähnliche App zur Simulation des Antriebs eines Elektrofahrzeugs entwickelt und diese in der C-Programmiersprache geschrieben, die jedoch einige Aspekte der Elektrofahrzeugtechnologie nicht erfüllte. Ich habe die App verbessert, allerdings in JavaFX. Diese App muss möglicherweise noch verbessert und optimiert werden, obwohl sie besser als die ältere Version ist. Allerdings ist nichts 100% perfekt._
+
+_This desktop app simulates electric vehicle powertrain. I earlier developed similar app for simulating electric vehicle powertrain and I wrote that app in C programming language but it was lacking in some aspects of electric vehicle technology. I enhanced the app but in JavaFX. This app might still need further improvement and optimization, despite being better than the older version. However, nothing is 100% perfect._
