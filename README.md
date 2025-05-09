@@ -47,6 +47,6 @@
 
 ---
 
-_Diese Desktop-App simuliert den eines Elektrofahrzeug-Antriebsstrangs. Ich hatte zuvor eine ähnliche App zur Simulation des Antriebs eines Elektrofahrzeugs entwickelt und diese in der C-Programmiersprache geschrieben, die jedoch einige Aspekte der Elektrofahrzeugtechnologie nicht erfüllte. Ich habe die App verbessert, allerdings in JavaFX. Diese App muss möglicherweise noch verbessert und optimiert werden, obwohl sie besser als die ältere Version ist. Allerdings ist nichts 100% perfekt._
+_Diese Desktop-App simuliert den eines Elektrofahrzeug-Antriebsstrangs. Ich hatte zuvor eine ähnliche App zur Simulation des Antriebs eines Elektrofahrzeugs entwickelt und diese in der C-Programmiersprache geschrieben, die jedoch einige Aspekte der Elektrofahrzeugtechnologie nicht erfüllte. Ich habe die App verbessert, allerdings in JavaFX. Diese App muss möglicherweise noch verbessert und optimiert werden, obwohl sie besser als die ältere Version ist. Allerdings nichts ist 100% perfekt._
 
 _This desktop app simulates electric vehicle powertrain. I earlier developed similar app for simulating electric vehicle powertrain and I wrote that app in C programming language but it was lacking in some aspects of electric vehicle technology. I enhanced the app but in JavaFX. This app might still need further improvement and optimization, despite being better than the older version. However, nothing is 100% perfect._
